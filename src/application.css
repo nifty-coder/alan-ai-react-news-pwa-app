@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.Logo {
+  width: 10vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-right: 3vw;
+}
+
+.Footer {
+  margin-bottom: 1vh;
+}
+
+.Footer a {
+  color: orange;
+}

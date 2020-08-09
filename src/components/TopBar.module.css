@@ -1,0 +1,18 @@
+.TopBar {
+    background-color: #f5a623;
+    z-index: 10;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.TopBar img {
+    width: 9vw;
+    height: 9vw;
+    border-radius: 50%;
+}
+
+@media (max-width: 499px) {
+    .TopBar img {
+        width: 20vw;
+        height: 20vw;
+    }
+}
